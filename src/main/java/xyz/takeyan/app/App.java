@@ -13,8 +13,8 @@ public class App {
     
     public static void main(String[] args) {
         
-        String user="SL293286"; 
-        String apikey="1613ada34195a192362599ab4742666f05b5cb2ff52368faa91bdeb1ea623dc7"; 
+        String user="XXXXXXXX"; 
+        String apikey="XXXXXXXXXXXXXXXX"; 
         String user_api = user + ":" + apikey; 
         String auth_header = "Basic " + java.util.Base64.getEncoder().encodeToString( user_api.getBytes() ); 
 
